@@ -1,0 +1,19 @@
+CRITICAL - 2022-03-04 05:45:08 --> Call to a member function errors() on null
+#0 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\Employee->addEmp()
+#1 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#2 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\c4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\c4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 05:45:43 --> Undefined variable $rrrrr
+#0 C:\xampp\htdocs\c4\app\Views\my_view.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\c4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c4\system\Common.php(1089): CodeIgniter\View\View->render('my_view', Array, true)
+#4 C:\xampp\htdocs\c4\app\Controllers\my_control.php(14): view('my_view', Array)
+#5 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\my_control->index()
+#6 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\my_control))
+#7 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

@@ -1,0 +1,82 @@
+CRITICAL - 2022-03-01 22:55:56 --> Undefined variable $rrrrr
+#0 C:\xampp\htdocs\c4\app\Views\my_view.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\c4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c4\system\Common.php(1089): CodeIgniter\View\View->render('my_view', Array, true)
+#4 C:\xampp\htdocs\c4\app\Controllers\my_control.php(14): view('my_view', Array)
+#5 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\my_control->index()
+#6 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\my_control))
+#7 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-01 22:56:10 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-03-01 22:56:10 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\c4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\c4\app\Controllers\my_control.php(21): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#2 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\my_control->dataGet()
+#3 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\my_control))
+#4 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\c4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\c4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-01 22:56:12 --> Undefined variable $rrrrr
+#0 C:\xampp\htdocs\c4\app\Views\my_view.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\c4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c4\system\Common.php(1089): CodeIgniter\View\View->render('my_view', Array, true)
+#4 C:\xampp\htdocs\c4\app\Controllers\my_control.php(14): view('my_view', Array)
+#5 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\my_control->index()
+#6 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\my_control))
+#7 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-01 23:04:04 --> Undefined variable $rrrrr
+#0 C:\xampp\htdocs\c4\app\Views\my_view.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\c4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c4\system\Common.php(1089): CodeIgniter\View\View->render('my_view', Array, true)
+#4 C:\xampp\htdocs\c4\app\Controllers\my_control.php(14): view('my_view', Array)
+#5 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\my_control->index()
+#6 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\my_control))
+#7 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-01 23:04:40 --> Undefined variable $rrrrr
+#0 C:\xampp\htdocs\c4\app\Views\my_view.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\c4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c4\system\Common.php(1089): CodeIgniter\View\View->render('my_view', Array, true)
+#4 C:\xampp\htdocs\c4\app\Controllers\my_control.php(14): view('my_view', Array)
+#5 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\my_control->index()
+#6 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\my_control))
+#7 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-01 23:04:45 --> Undefined variable $rrrrr
+#0 C:\xampp\htdocs\c4\app\Views\my_view.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\c4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c4\system\Common.php(1089): CodeIgniter\View\View->render('my_view', Array, true)
+#4 C:\xampp\htdocs\c4\app\Controllers\my_control.php(14): view('my_view', Array)
+#5 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\my_control->index()
+#6 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\my_control))
+#7 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-01 23:05:00 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\c4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\c4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\c4\system\Common.php(1089): CodeIgniter\View\View->render('my_view', Array, true)
+#3 C:\xampp\htdocs\c4\app\Controllers\my_control.php(25): view('my_view', Array)
+#4 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\my_control->dataGet()
+#5 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\my_control))
+#6 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\c4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\c4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
